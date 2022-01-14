@@ -1,0 +1,13 @@
+.nav-option {
+    cursor: pointer;
+}
+
+.nav-option > span {
+    font-size: 2em;
+    margin: 0 10px;
+    color: black;
+}
+
+.nav-option > span:hover {
+    color: rgba(0, 0, 0, 0.75);
+}

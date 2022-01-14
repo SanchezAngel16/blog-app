@@ -1,0 +1,45 @@
+.createPost-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.createPost-panel > .card {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.createPost-panel > .card > .createPost-form {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.createPost-panel > .card > .createPost-form > label {
+  display: block;
+  margin-bottom: 5px;
+  color: black;
+  font-weight: 600;
+}
+
+.createPost-panel > .card > .createPost-form > input,
+.createPost-panel > .card > .createPost-form > textarea {
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.08);
+  height: 30px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.createPost-panel > .card > .createPost-form > textarea {
+  resize: none;
+  height: 300px;
+}
+
+.createPost-panel > .card > .createPost-form > input:focus,
+.createPost-panel > .card > .createPost-form > textarea:focus {
+  border: 0.1px solid rgb(0, 117, 250);
+}

@@ -1,0 +1,71 @@
+.post-container {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.post-container > .card {
+  width: 50%;
+  padding: 15px 15px;
+}
+
+.post-container > .card:hover {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+}
+
+.post-container > .card > .card-post {
+  display: flex;
+  gap: 15px;
+  height: 150px;
+}
+
+.post-container > .card > .card-post > .card-post-coverPhoto {
+  flex: 0.25;
+  height: 100%;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+
+.post-container > .card > .card-post > .card-post-info {
+  flex: 0.75;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .post-container > a > .card > .card-post > .card-post-info > .card-post-header {
+    display: flex;
+    align-items: center;
+    flex: 0.2;
+} */
+
+/* .post-container > a > .card > .card-post > .card-post-info > .card-post-header > p > span {
+    font-weight: 600;
+} */
+
+.post-container > .card > .card-post > .card-post-info > .card-post-body {
+  flex: 0.6;
+  padding: 0 10px;
+}
+
+.post-container > .card > .card-post > .card-post-info > .card-post-footer {
+  padding: 0 10px;
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-container
+  > .card
+  > .card-post
+  > .card-post-info
+  > .card-post-footer
+  > span {
+  align-self: end;
+}

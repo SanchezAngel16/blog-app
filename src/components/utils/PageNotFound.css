@@ -1,0 +1,15 @@
+.pageNotFound-panel{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pageNotFound-panel .pageNotFound-card {
+    text-align: center;
+    flex-direction: column;
+    height: 250px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+}

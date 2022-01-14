@@ -1,0 +1,54 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.card > .login-brand {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.login > .card > .login-form {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login > .card > .login-form > label {
+  display: block;
+  margin-bottom: 5px;
+  color: black;
+  font-weight: 600;
+}
+
+.login > .card > .login-form > label > span {
+  margin-left: 3px;
+  font-size: 12px;
+  text-decoration: underline;
+  color: gray;
+  cursor: pointer;
+}
+
+.login > .card > .login-form > input {
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.08);
+  height: 30px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.login > .card > .login-form > input:focus {
+  border: 0.1px solid rgb(0, 117, 250);
+}
+
+.login > .card > span {
+    margin-top: 20px;
+    align-self: center;
+}
+

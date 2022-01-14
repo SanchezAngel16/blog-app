@@ -1,0 +1,99 @@
+.signUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.signUp > .signUp-brand {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.signUp > .card > .signUp-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.signUp > .card > .signUp-form > .signUp-imagePicker {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-bottom: 25px;
+  text-align: center;
+  /* cursor: pointer; */
+}
+
+#image-picker {
+  visibility: collapse;
+}
+
+/* .signUp > .card > .signUp-form > .signUp-imagePicker > .signUp-imagePreview {
+  font-size: 72px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  align-self: center;
+} */
+
+.signUp > .card > .signUp-form > .signUp-imagePicker > label{
+  cursor: pointer;
+}
+
+.signUp > .card > .signUp-form > .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.signUp > .card > .signUp-form > .form-group {
+  margin-bottom: 15px;
+}
+
+.signUp > .card > .signUp-form > .form-group > .form-inline {
+  display: flex;
+  gap: 10px;
+}
+
+.signUp > .card > .signUp-form > .form-group input {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.08);
+  height: 30px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.signUp > .card > .signUp-form > .form-group > input:focus,
+.signUp > .card > .signUp-form > .form-group > select:focus {
+  border: 0.1px solid rgb(0, 117, 250);
+}
+
+.signUp > .card > .signUp-form > .form-group select {
+  height: 30px;
+  padding: 0 10px;
+  background-color: rgba(0, 0, 0, 0.08);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+/* .signUp > .card > .signUp-form > .form  */
+
+.signUp > .card > .signUp-form > .signUp-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.signUp > .card > span {
+  margin-top: 20px;
+  align-self: center;
+}

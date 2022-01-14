@@ -1,0 +1,28 @@
+.postDetails-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 100vh;
+}
+
+.postDetails-container > .card {
+    width: 50%;
+}
+
+.postDetails-container > .card > .postDetails-header > .postDetails-headerInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.postDetails-container > .card > .postDetails-header > .postDetails-headerInfo > .postDetails-authorInfo{
+    align-self: flex-start;
+    justify-self: center;
+    justify-self: center;
+    margin-left: 10px;
+    flex: 2;
+}
+
+.postDetails-container > .card > .postDetails-body {
+    margin-top: 25px;
+}
