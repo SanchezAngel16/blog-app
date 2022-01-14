@@ -1,7 +1,6 @@
-# Simple Firebase blog App using React and React Redux as state manager
+# Simple Firebase blog App 
 
-Simple blog app that allows to create users and write simple articles with a title, content text and 
-an image (pendent).
+Simple firebase blog app using React and React Redux as state manager. It allows to create users and write simple articles with a title, content text and an image (pendent).
 
 
 <!-- # Getting Started with Create React App
